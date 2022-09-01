@@ -1,0 +1,46 @@
+nav{
+    display: flex;
+    justify-content: center;
+    background-color:hsla(120, 98%, 49%, 0.589);
+}
+
+body{
+    background-color: rgba(56, 56, 56, 0.753);
+}
+
+@media(max-width:600px){
+    .btn{
+        margin: 1rem auto;
+    }
+}
+.search-bar {
+        padding:0 1rem;
+}
+@media(min-width:960px){
+.movies .col-md-3 .well{
+    height:400px;
+    text-align: center;
+}
+.movies .col-md-3 img{
+    height:250px;
+    border-radius: 1em;
+}
+}
+
+#addMovies {
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.well {
+    height:500px;
+    width:250px; 
+    margin: 1rem 0;   
+}
+.poster-img {
+    height:400px;
+    width:250px;
+    border-image: 30 round;
+    margin-bottom: 1rem;
+}
